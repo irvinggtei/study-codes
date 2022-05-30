@@ -15,8 +15,8 @@ while True:
     if event == sg.WIN_CLOSED:
         break
     elif event == 'Login':
-        senha_correta  = '123456'
-        usuario_correto = 'irving'
+        senha_correta  = 'user-password'
+        usuario_correto = 'user-name'
         usuario = values['usuario']
         senha = values['senha']
         if senha == senha_correta and usuario_correto:
